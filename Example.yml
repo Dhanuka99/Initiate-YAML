@@ -1,0 +1,15 @@
+---
+# An Employee Record
+
+name : Dhanuka
+job : System Engineer 
+skills : scripting 
+employed : True (boolean)
+foods :
+ - Apple
+ - Orange (List)
+ - Mango 
+languages :
+ - English
+ - Sinhala
+Education : |dsdsds
