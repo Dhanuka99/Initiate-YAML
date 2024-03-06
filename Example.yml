@@ -1,10 +1,12 @@
----
+--- 
+#Every YAML document start from 3 dashes
 # An Employee Record
 
 name : Dhanuka
 job : System Engineer 
 skills : scripting 
 employed : True (boolean)
+#list
 foods :
  - Apple
  - Orange (List)
@@ -12,4 +14,20 @@ foods :
 languages :
  - English
  - Sinhala
-Education : |dsdsds
+#Multiline String
+Education : |
+ OL
+ AL
+ Bsc in IT special cyber security 
+#Dictionary
+Work_experience :
+ company_01 :
+  year : 2
+  role : "Trainee system Engineer"
+ company_02 :
+  year : 1
+  role : Engineer 
+Social_accounts :
+ facebook : 2
+ youtube : 1
+
