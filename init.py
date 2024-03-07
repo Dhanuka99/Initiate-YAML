@@ -106,3 +106,41 @@ print(not 10 in x)
 
 #Dictionary 
 
+w = {'1000' : "Kurunegala", '1500' : "Badulla", '2000' : "horana"}
+
+print(w)
+print(w.keys())
+print(w.values())
+
+r = {1:'A', 2: 'B', 3 : 'C'}
+print(r.get(1,0))
+
+w['1255'] = "Panadura"
+print(w)
+
+#Sets
+#no duplicate values. we can not use index for when data adding or removing 
+z = {"Hello", "World","Hello","1","1"}
+t = {"Hello"}
+print(z)
+z.add("hello")
+print(z)
+print(z-t)
+print("1" in z)
+
+
+#Tuple
+
+Dhanuka = ("Dhanuka",24,"Kurunegala", 176, "Dhanuka")
+
+print(type(Dhanuka))
+print(Dhanuka)
+
+fname = Dhanuka[0]
+print(fname)
+
+print(Dhanuka.count("Dhanuka"))
+
+lname, age , city , height , nickname = Dhanuka
+
+print(lname,age,city,height,nickname)
