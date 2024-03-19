@@ -30,4 +30,9 @@ def unique(languages):
     return set(languages)
 
 
-print(unique(['ruby, ruby, JS, JS, Python']))
+print(unique(['ruby', 'ruby', 'JS', 'JS', 'Python']))
+
+unique1 = lambda lang: list(set(lang))
+print(unique1(['ruby', 'ruby', 'python']))
+
+
