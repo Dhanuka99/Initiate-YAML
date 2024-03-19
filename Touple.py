@@ -6,10 +6,10 @@ print(number)
 print(number[0])
 
 
-#SETS  used for getting unique elements 
+#SETS  used for getting unique elements (ignores duplicate values)
 
 
-list1 = ['ruby','python', 'java script']
+list1 = ['ruby','python', 'javascript']
 list2 = ['ruby', 'sql', 'java', 'javascript']
 
 ###Special ketywords ###
@@ -26,3 +26,8 @@ print(5 in things)
 print(set(programmingLanguages))
 
 
+def unique(languages):
+    return set(languages)
+
+
+print(unique(['ruby, ruby, JS, JS, Python']))
