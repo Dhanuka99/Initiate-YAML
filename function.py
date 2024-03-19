@@ -47,3 +47,23 @@ def weatherReport(value):
 
 print(weatherReport('cloudy'))
     
+
+def bigger_guy(a : int , b :int):
+  """
+  Given 2 numbers, return the bigger one.
+  >>> bigger_guy(2, 3)
+  3
+  """
+  if a>b:
+    return a
+  else:
+    return b
+
+
+print(bigger_guy(1,0))
+
+#lembda function (implicit return)
+
+
+sum2 = lambda a, b : a+b
+print(sum2(5,10))
