@@ -5,6 +5,12 @@
 # ansible-playbook --help
 
 #veryfying ansible playbooks
+#check mode ---> ansible-playbook install-nginx.yml --check
+# Diff mode ---> ansible-playbook configure_nginx.yml --check --diff
+
+#Ensures the syntax check ----> ansible-playbook configure_nginx.yml --syntax-check
+
+
  
 
 ---
@@ -27,3 +33,7 @@ tasks:
    service: 
     name: httpd
     state: started
+
+
+
+
