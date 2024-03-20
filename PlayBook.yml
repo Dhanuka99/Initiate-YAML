@@ -1,0 +1,29 @@
+#that is single YAML file
+#play - defines a set of activities (task) to be run on hosts. 
+#execute ansible playbook 
+# ansible-playbook playbook.yml
+# ansible-playbook --help
+
+#veryfying ansible playbooks
+ 
+
+---
+
+name: Play1
+hosts: localhost
+tasks:
+  -name: execute command 'date'
+   command: date
+
+  -name: Execute script on server
+   script: test_script.sh
+
+  -name: install httpd service
+    yum:
+      name: httpd
+      state: present 
+
+  -name: start web server
+   service: 
+    name: httpd
+    state: started
